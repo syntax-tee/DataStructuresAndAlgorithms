@@ -2,7 +2,7 @@ package com.taiye.ogunlade.java.kunal.array;
 
 import java.util.Scanner;
 
-public class Arrays {
+public class ArraysExample {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
