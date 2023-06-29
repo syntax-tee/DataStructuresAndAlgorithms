@@ -27,8 +27,9 @@ public class ReverseArray {
     static void reversString(String str) {
         // two pointer (start) and (end)
         int start = 0; //start index
-        char[] tempChar = str.toCharArray(); // convert string to char
         int end = str.toCharArray().length - 1; // end of string index
+        char[] tempChar = str.toCharArray(); // convert string to char
+
 
         for (start = 0;  start < end; start++) {
             char temp = tempChar[start];
