@@ -1,7 +1,7 @@
-package com.taiye.ogunlade.java.linkedlist.cicular;
+package com.taiye.ogunlade.java.kunal.array.linkedlist.cicular;
 
 
-import com.taiye.ogunlade.java.linkedlist.Node;
+import com.taiye.ogunlade.java.kunal.array.linkedlist.Node;
 
 public class CircularLinkedList<E> {
 

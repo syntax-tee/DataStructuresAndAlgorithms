@@ -1,6 +1,6 @@
-package com.taiye.ogunlade.java.linkedlist.singly;
+package com.taiye.ogunlade.java.kunal.array.linkedlist.singly;
 
-import com.taiye.ogunlade.java.linkedlist.Node;
+import com.taiye.ogunlade.java.kunal.array.linkedlist.Node;
 
 public class SinglyLinkedList<E> {
     private Node<E> head = null;

@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.java.linkedlist.singly.impl;
+package com.taiye.ogunlade.java.kunal.array.linkedlist.singly.impl;
 
 public class MyNode<E> {
 

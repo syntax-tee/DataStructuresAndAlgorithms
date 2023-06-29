@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.java.linkedlist;
+package com.taiye.ogunlade.java.kunal.linkedlist;
 
 
 public class Node<E> {
