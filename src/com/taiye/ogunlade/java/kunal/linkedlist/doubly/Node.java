@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.java.kunal.array.linkedlist.doubly;
+package com.taiye.ogunlade.java.kunal.linkedlist.doubly;
 
 public  class Node<E> {
     private E element;

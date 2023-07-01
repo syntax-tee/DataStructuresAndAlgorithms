@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.java.kunal.array.linkedlist.singly.impl;
+package com.taiye.ogunlade.java.kunal.linkedlist.singly.impl;
 
 public class MySinglyLinkedList<E> {
     private MyNode<E> head;
