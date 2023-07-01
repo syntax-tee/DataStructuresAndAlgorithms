@@ -42,7 +42,7 @@ public class FindEvenNum {
         int count = 0;
         for (int num : nums) {
             if (even(num)){
-
+              count++;
             }
         }
         return count;
