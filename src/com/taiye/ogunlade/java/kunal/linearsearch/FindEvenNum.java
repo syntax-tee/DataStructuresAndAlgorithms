@@ -5,7 +5,7 @@ public class FindEvenNum {
         int arr[] = {1, 34, 56, 78, 8, 9, 12};
         int arr2[] = {1, 3, 9};
         int arr3[] = {18, 124, 9, 1764, 98, 1};
-      //  System.out.println(even(arr2));
+        //  System.out.println(even(arr2));
         System.out.println();
 
         System.out.println(even(14));
@@ -28,10 +28,17 @@ public class FindEvenNum {
 
     // count number of digits in a number
     static int digits(int num) {
+        if (num < 0) {
+            num = num * 1;
+        }
+
+        if (num == 0) {
+            return 1;
+        }
         int count = 0;
         while (num > 0) {
             count++;
-            num = num / 10;
+            num = num / 10;  // num /= 10
         }
 
         return count;
@@ -41,8 +48,8 @@ public class FindEvenNum {
     static int findNumbers(int[] nums) {
         int count = 0;
         for (int num : nums) {
-            if (even(num)){
-              count++;
+            if (even(num)) {
+                count++;
             }
         }
         return count;
