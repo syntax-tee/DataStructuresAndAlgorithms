@@ -1,5 +1,7 @@
 package com.taiye.ogunlade.java.kunal.array;
 
+import java.util.Arrays;
+
 public class ArrayInterviewQuestions {
     public static void main(String[] args) {
             /*
@@ -16,6 +18,10 @@ public class ArrayInterviewQuestions {
         ;
         System.out.println("Search array " + search(arr1, 3));
         System.out.println("Unique "+ areUnique(arr2));
+
+
+        int[] arr3 = {1,2,3,4};
+        System.out.println("Running sum "+ Arrays.toString(runningSum(arr3)));
 
     }
 
@@ -48,6 +54,15 @@ public class ArrayInterviewQuestions {
             }
         }
         return true;
+    }
+
+    public static int[] runningSum(int[] nums){
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum = sum + nums[i];
+            nums[i] = sum;
+        }
+        return nums;
     }
 }
 
