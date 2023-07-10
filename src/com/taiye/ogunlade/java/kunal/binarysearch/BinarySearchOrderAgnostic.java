@@ -1,9 +1,9 @@
 package com.taiye.ogunlade.java.kunal.binarysearch;
 
-public class OrderAgnosticBS {
+public class BinarySearchOrderAgnostic {
     public static void main(String[] args) {
         int[] arr = {2, 4, 6, 10, 12, 14, 20, 36, 48};
-        int ans = binarySearchOrderAgnostic(arr, 4);
+        int ans = binarySearchOrderAgnostic(arr, 14);
         System.out.println("Target is on " + ans + " index ");
     }
 
@@ -18,18 +18,20 @@ public class OrderAgnosticBS {
         while (start <= end) {
             int mid = start + (end - start) / 2;
 
-            if (arr[mid] == target) {
+            int midValue = arr[mid];
+
+            if (midValue == target) {
                 return mid;
             }
 
             if (isAsc) {
-                if (target < arr[mid]) {
+                if (target < midValue) {
                     end = mid - 1;
                 } else {
                     start = mid + 1;
                 }
             } else {
-                if (target < arr[mid]) {
+                if (target > midValue) {
                     end = mid - 1;
                 } else {
                     start = mid + 1;
