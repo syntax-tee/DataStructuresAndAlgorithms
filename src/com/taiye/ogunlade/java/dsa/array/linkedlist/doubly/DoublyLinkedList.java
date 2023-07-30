@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.java.kunal.linkedlist.doubly;
+package com.taiye.ogunlade.java.dsa.array.linkedlist.doubly;
 
 public class DoublyLinkedList<E> {
     private Node<E> header;
