@@ -1,6 +1,8 @@
 package com.taiye.ogunlade.dsa.adt;
 
-public class Square implements Measureable{
+import com.taiye.ogunlade.dsa.adt.interfaces.Measureable;
+
+public class Square implements Measureable {
     @Override
     public double getArea() {
         return 0;

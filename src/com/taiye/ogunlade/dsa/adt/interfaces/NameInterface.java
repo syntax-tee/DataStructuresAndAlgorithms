@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.dsa.adt;
+package com.taiye.ogunlade.dsa.adt.interfaces;
 
 public interface NameInterface {
     /**
