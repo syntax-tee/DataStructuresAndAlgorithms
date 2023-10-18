@@ -1,6 +1,6 @@
-package com.taiye.ogunlade.dsa.adt;
+package com.taiye.ogunlade.dsa.designingclasses;
 
-import com.taiye.ogunlade.dsa.adt.interfaces.Measureable;
+import com.taiye.ogunlade.dsa.designingclasses.interfaces.Measureable;
 
 public class Square implements Measureable {
     @Override

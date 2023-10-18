@@ -1,6 +1,6 @@
-package com.taiye.ogunlade.dsa.adt;
+package com.taiye.ogunlade.dsa.designingclasses;
 
-import com.taiye.ogunlade.dsa.adt.interfaces.ConstantsInterface;
+import com.taiye.ogunlade.dsa.designingclasses.interfaces.ConstantsInterface;
 
 public class ConstantDemo implements ConstantsInterface {
     public static void main(String[] args) {

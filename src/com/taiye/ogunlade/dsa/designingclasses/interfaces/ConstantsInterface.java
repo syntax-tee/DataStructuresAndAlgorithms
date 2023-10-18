@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.dsa.adt.interfaces;
+package com.taiye.ogunlade.dsa.designingclasses.interfaces;
 
 public interface ConstantsInterface {
     public static final double INCHES_PER_CENTIMETER = 0.393;

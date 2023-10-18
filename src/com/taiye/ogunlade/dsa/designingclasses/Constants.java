@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.dsa.adt;
+package com.taiye.ogunlade.dsa.designingclasses;
 
 public class Constants {
     public static final double INCHES_PER_CENTIMETER = 0.393;

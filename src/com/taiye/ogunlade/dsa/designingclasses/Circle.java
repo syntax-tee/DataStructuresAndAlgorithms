@@ -1,7 +1,7 @@
-package com.taiye.ogunlade.dsa.adt;
+package com.taiye.ogunlade.dsa.designingclasses;
 
-import com.taiye.ogunlade.dsa.adt.interfaces.Circular;
-import com.taiye.ogunlade.dsa.adt.interfaces.Measureable;
+import com.taiye.ogunlade.dsa.designingclasses.interfaces.Circular;
+import com.taiye.ogunlade.dsa.designingclasses.interfaces.Measureable;
 
 public class Circle implements Measureable, Circular {
     private double radius;

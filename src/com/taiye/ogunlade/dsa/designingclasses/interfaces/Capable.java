@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.dsa.adt.interfaces;
+package com.taiye.ogunlade.dsa.designingclasses.interfaces;
 
 public interface Capable {
     public void hear();
