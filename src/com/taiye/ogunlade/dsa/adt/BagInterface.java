@@ -16,7 +16,7 @@ public interface BagInterface<T> {
 
 
     /***
-     * Adds a newentry to this bag
+     * Adds a newEntry to this bag
      * @param newEntry The object to be added as a new Entry
      * @return
      */
@@ -60,5 +60,5 @@ public interface BagInterface<T> {
      * @return A newly allocated array of all the entries in the bag ,
      *         Note returns
      */
-    T[] toArray();
+    public T[] toArray();
 }

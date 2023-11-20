@@ -1,6 +1,6 @@
 package com.taiye.ogunlade.dsa.adt;
 
-public class ArrayBag implements BagInterface{
+public class ArrayBag<T> implements BagInterface<T>{
     @Override
     public int getCurrentSize() {
         return 0;
@@ -17,7 +17,7 @@ public class ArrayBag implements BagInterface{
     }
 
     @Override
-    public Object remove() {
+    public T remove() {
         return null;
     }
 
@@ -42,7 +42,7 @@ public class ArrayBag implements BagInterface{
     }
 
     @Override
-    public Object[] toArray() {
-        return new Object[0];
+    public T[] toArray() {
+        return (T[]) new Object[0];
     }
 }

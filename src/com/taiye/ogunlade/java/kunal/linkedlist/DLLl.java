@@ -1,12 +1,12 @@
 package com.taiye.ogunlade.java.kunal.linkedlist;
 
-public class LL {
+public class DLLl {
 
     private Node head;
     private Node tail;
     private int size;
 
-    public LL() {
+    public DLLl() {
         this.size = 0;
     }
 
@@ -81,6 +81,8 @@ public class LL {
         size--;
         return val;
     }
+
+
 
     public int delete(int index) {
         if (index == 0) {
@@ -167,11 +169,11 @@ public class LL {
     }
 
     // https://leetcode.com/problems/merge-two-sorted-lists/submissions/
-    public static LL merge(LL first, LL second) {
+    public static DLLl merge(DLLl first, DLLl second) {
         Node f = first.head;
         Node s = second.head;
 
-        LL ans = new LL();
+        DLLl ans = new DLLl();
 
         while (f != null && s != null) {
             if (f.value < s.value) {
@@ -270,8 +272,8 @@ public class LL {
 
 
     public static void main(String[] args) {
-        LL first = new LL();
-        LL second = new LL();
+        DLLl first = new DLLl();
+        DLLl second = new DLLl();
 
         first.insertLast(1);
         first.insertLast(3);
@@ -282,10 +284,10 @@ public class LL {
         second.insertLast(9);
         second.insertLast(14);
 
-        LL ans = LL.merge(first, second);
+        DLLl ans = DLLl.merge(first, second);
         ans.display();
 
-        LL list = new LL();
+        DLLl list = new DLLl();
         for (int i = 7; i > 0; i--) {
             list.insertLast(i);
         }

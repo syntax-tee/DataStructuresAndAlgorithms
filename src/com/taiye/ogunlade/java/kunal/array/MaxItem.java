@@ -4,6 +4,8 @@ public class MaxItem {
     public static void main(String[] args) {
         int[] arr = {1, 45,3, 23, 9, 18};
 
+        System.out.println("Recursive Max "+recursiveMax(arr,arr.length));
+
         System.out.println("findMax "+findMax(arr));
 
         int end = arr.length - 1;
@@ -30,6 +32,15 @@ public class MaxItem {
         return max;
     }
 
+    static int recursiveMax(int[] arr, int length) {
+        if (length == 1) return arr[0];
+        return max(recursiveMax(arr, length - 1), arr[length - 1]);
+    }
+
+    private static int max(int n1, int n2)
+    {
+        return n1 > n2 ? n1 : n2;
+    }
 
     static int findMaxInRange(int[] arr, int start, int end) {
         int max = Integer.MIN_VALUE;

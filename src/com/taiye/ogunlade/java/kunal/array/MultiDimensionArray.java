@@ -14,12 +14,10 @@ public class MultiDimensionArray {
 
         int[][] arr2D = new int[3][4]; // row 3 column 4
 
-//        int[][] arr = {
-//                {1, 2, 3},     // 0th index
-//                {4, 5},       // 1st index
-//                {5, 7, 8, 9} // 2nd index
-//        };
-        int[][] arr = new int[3][3];
+        int[][] arr = new int[2][2];
+
+        int max = Integer.MIN_VALUE;
+        int[] arrayMax = new int[0];
 
         System.out.println("Take input for 2D array");
         // INPUT
@@ -33,6 +31,9 @@ public class MultiDimensionArray {
         }
         // OUTPUT
         // For each row and colum
+
+
+
         System.out.println("For each row and colum");
         for (int row = 0; row < arr.length; row++) {
             // for each col in every row
@@ -53,5 +54,13 @@ public class MultiDimensionArray {
         for (int[] a : arr) {
             System.out.println(Arrays.toString(a));
         }
+    }
+
+    private static int getMax2D(int[][] arr,int row, int col) {
+        int max = Integer.MIN_VALUE;
+        if(max < arr[row][col]) {
+            max = arr[row][col];
+        }
+        return max;
     }
 }
