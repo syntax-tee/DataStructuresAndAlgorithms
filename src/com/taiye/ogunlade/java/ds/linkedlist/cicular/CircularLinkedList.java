@@ -1,13 +1,13 @@
 package com.taiye.ogunlade.java.ds.linkedlist.cicular;
 
 
-import com.taiye.ogunlade.java.dsa.array.linkedlist.Node;
+import com.taiye.ogunlade.java.ds.linkedlist.singly.impl.MyNode;
 
 public class CircularLinkedList<E> {
 
-    private Node<E> tail = null;
+    private MyNode<E> tail = null;
 
-    public Node<E> getTail() {
+    public MyNode<E> getTail() {
         return tail;
     }
 
@@ -43,10 +43,10 @@ public class CircularLinkedList<E> {
 
     public void addFirst(E e) {
         if (size == 0) {
-            tail = new Node<>(e, null);
+            tail = new MyNode<>(e, null);
             tail.setNext(tail);
         } else {
-            Node<E> newest = new Node<>(e, tail.getNext());
+            MyNode<E> newest = new MyNode<>(e, tail.getNext());
             tail.setNext(newest);
         }
         size++;
@@ -59,7 +59,7 @@ public class CircularLinkedList<E> {
 
     public E removeFirst() {
         if (isEmpty()) return null;
-        Node<E> head = tail.getNext();
+        MyNode<E> head = tail.getNext();
         if (head == tail) tail = null;
         else
             tail.setNext(head.getNext());

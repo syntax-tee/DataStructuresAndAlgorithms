@@ -1,17 +1,17 @@
 package com.taiye.ogunlade.java.ds.linkedlist.singly;
 
-import com.taiye.ogunlade.java.dsa.array.linkedlist.Node;
+import com.taiye.ogunlade.java.ds.linkedlist.singly.impl.MyNode;
 
 public class SinglyLinkedList<E> {
-    private Node<E> head = null;
-    private Node<E> tail = null;
+    private MyNode<E> head = null;
+    private MyNode<E> tail = null;
     private int size = 0;
 
-    public Node<E> getHead() {
+    public MyNode<E> getHead() {
         return head;
     }
 
-    public Node<E> getTail() {
+    public MyNode<E> getTail() {
         return tail;
     }
 
@@ -34,14 +34,14 @@ public class SinglyLinkedList<E> {
     }
 
     public void addFirst(E e) {
-        head = new Node<>(e, head);
+        head = new MyNode<>(e, head);
         if (size == 0)
             tail = head;
         size++;
     }
 
     public void addLast(E e) {
-        Node<E> newest = new Node<>(e, null);
+        MyNode<E> newest = new MyNode<>(e, null);
         if (isEmpty())
             head = newest;
         else
