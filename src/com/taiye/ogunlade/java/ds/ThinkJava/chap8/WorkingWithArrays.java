@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.java.ds.TIJ.chap8;
+package com.taiye.ogunlade.java.ds.ThinkJava.chap8;
 
 
 import java.util.Random;

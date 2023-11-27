@@ -1,4 +1,4 @@
-package com.taiye.ogunlade.java.ds.TIJ.chap7;
+package com.taiye.ogunlade.java.ds.ThinkJava.chap7;
 
 public class WhileLoop {
     public static void main(String[] args) {
