@@ -7,7 +7,6 @@ class FirstUnique {
 
     static LinkedHashSet<Integer> nonRepeatingNums;
     static HashSet<Integer> repeatingNums;
-
     public static void main(String[] args) {
         int[] nums = new int[]{3, 2, 4};
 
