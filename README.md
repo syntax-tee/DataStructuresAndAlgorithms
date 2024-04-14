@@ -1,8 +1,8 @@
 # DataStructuresAndAlgorithms
 Data Structures and Algorithms implementation.
 
-Practise Website 
+Practise Websites 
 
 `https://codility.com` </br>
 `https://codingbat.com` <br/>
-`https://hackerank.com`
+`https://hackerank.com` 
